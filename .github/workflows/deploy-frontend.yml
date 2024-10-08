@@ -28,7 +28,7 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync ./531proj-frontend/dist/531proj-frontend/browser/ s3://531proj-frontend-s3 --delete
+          aws s3 sync ./531proj-frontend/dist/531proj-frontend/browser/ s3://531proj-s3 --delete
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
