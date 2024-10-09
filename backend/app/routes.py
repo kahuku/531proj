@@ -10,17 +10,20 @@ def register_routes(app):
                 {
                     'id': 1,
                     'name': 'Glazed',
-                    'price': 1.50
+                    'price': 1.50,
+                    'imgSrc': '',
                 },
                 {
                     'id': 2,
                     'name': 'Chocolate',
-                    'price': 2.00
+                    'price': 2.00,
+                    'imgSrc': '',
                 },
                 {
                     'id': 3,
                     'name': 'Boston Cream',
-                    'price': 2.50
+                    'price': 2.50,
+                    'imgSrc': '',
                 }
             ]
         }
