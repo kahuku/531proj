@@ -24,6 +24,18 @@ def register_routes(app):
                     'name': 'Boston Cream',
                     'price': 2.50,
                     'imgSrc': 'https://531proj.kahuku.dev/donuts/boston-cream.png',
+                },
+                {
+                    'id': 4,
+                    'name': 'Maple Bar',
+                    'price': 2.50,
+                    'imgSrc': 'https://531proj.kahuku.dev/donuts/maple-bar.png',
+                },
+                {
+                    'id': 5,
+                    'name': 'Bear Claw',
+                    'price': 3.00,
+                    'imgSrc': 'https://531proj.kahuku.dev/donuts/bear-claw.png',
                 }
             ]
         }
