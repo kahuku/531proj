@@ -3,4 +3,6 @@ export type Donut = {
     name: string;
     price: number;
     imgSrc: string;
+    desc: string;
+    rating: string;
 };
