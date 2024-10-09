@@ -11,19 +11,19 @@ def register_routes(app):
                     'id': 1,
                     'name': 'Glazed',
                     'price': 1.50,
-                    'imgSrc': 'https://531proj.kahuku.dev/glazed.png',
+                    'imgSrc': 'https://531proj.kahuku.dev/donuts/glazed.png',
                 },
                 {
                     'id': 2,
                     'name': 'Chocolate',
                     'price': 2.00,
-                    'imgSrc': 'https://531proj.kahuku.dev/chocolate.png',
+                    'imgSrc': 'https://531proj.kahuku.dev/donuts/chocolate.png',
                 },
                 {
                     'id': 3,
                     'name': 'Boston Cream',
                     'price': 2.50,
-                    'imgSrc': 'https://531proj.kahuku.dev/boston-cream.png',
+                    'imgSrc': 'https://531proj.kahuku.dev/donuts/boston-cream.png',
                 }
             ]
         }

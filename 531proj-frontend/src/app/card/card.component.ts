@@ -12,7 +12,7 @@ export class CardComponent {
 
     ngOnInit() {
         if (this.donut.imgSrc === undefined || this.donut.imgSrc === '') {
-            this.donut.imgSrc = 'https://531proj.kahuku.dev/donut.png';
+            this.donut.imgSrc = 'https://531proj.kahuku.dev/donuts/donut.png';
         }
     }
 }
