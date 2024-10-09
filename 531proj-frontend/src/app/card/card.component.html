@@ -4,6 +4,8 @@
     </div>
     <div class="card-content">
         <h2>{{ donut.name }}</h2>
-        <h3>${{ donut.price }}</h3>
+        <h3>
+            {{ donut.price % 1 === 0 ? (donut.price | currency: 'USD':'symbol':'1.0-0') : (donut.price | currency: 'USD':'symbol':'1.2-2') }}
+        </h3>
     </div>
 </div>

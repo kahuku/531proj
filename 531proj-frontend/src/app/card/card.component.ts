@@ -1,11 +1,13 @@
 import { Component, Input } from "@angular/core";
 import { Donut } from "../Donut";
+import { CurrencyPipe } from '@angular/common';
 
 @Component({
     selector: 'app-card',
     standalone: true,
     templateUrl: 'card.component.html',
     styleUrl: 'card.component.css',
+    imports: [CurrencyPipe]
 })
 export class CardComponent {
     @Input({required: true}) donut!: Donut;
