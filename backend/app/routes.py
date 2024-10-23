@@ -9,7 +9,7 @@ def register_routes(app):
     @app.route('/donuts', methods=['GET'])
     def donuts():
         cursor = mysql.connection.cursor()
-        cursor.execute("SELECT * FROM donuts")  # Replace 'donuts' with your actual table name
+        cursor.execute("SELECT * FROM donuts")
         rows = cursor.fetchall()
         cursor.close()
 
